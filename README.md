@@ -20,6 +20,11 @@ $ conda install cookiecutter
 ------------
 
     conda create --name repo_name_goes_here
+    
+### Once our environment is active and has the packages you need (this can be done multiple times as you add/remove dependencies)
+------------
+
+    conda env export --name env_name_goes_here > env_name_goes_here.yml
 
 The directory structure of your new project looks like this: 
 
@@ -40,17 +45,14 @@ The directory structure of your new project looks like this:
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Jupyter notebooks
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── env_name_goes_here.yml <- The requirements file for reproducing the analysis environment (user created after the fact)
 │
 ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
 ├── src                <- Source code for use in this project.
