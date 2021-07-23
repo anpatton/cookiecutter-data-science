@@ -49,8 +49,8 @@ The directory structure of your new project looks like this:
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── results            <- Generated analysis, final results, predictions, etc.
+│   └── figures        <- Generated graphics and figures 
 │
 ├── env_name_goes_here.yml <- The requirements file for reproducing the analysis environment (user created after the fact)
 │
