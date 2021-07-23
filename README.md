@@ -10,6 +10,14 @@ $ conda install cookiecutter
 ------------
 
     cookiecutter https://github.com/anpatton/cookiecutter-data-science
+    
+    
+### After you follow the prompts create a conda environment with the same name as the repo name from the propmts
+------------
+
+    conda create --name repo_name_goes_here
+
+The directory structure of your new project looks like this: 
 
 ### The resulting directory structure
 ------------
