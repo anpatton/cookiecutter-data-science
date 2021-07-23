@@ -1,8 +1,9 @@
 {{cookiecutter.project_name}}
 ==============================
 Group: {{cookiecutter.plm_group}}  
-Author: {{cookiecutter.author_name}}. 
-Author Email: {{cookiecutter.author_email}}. 
+Author: {{cookiecutter.author_name}}    
+Author Email: {{cookiecutter.author_email}}   
+
 
 Description
 ==============================
