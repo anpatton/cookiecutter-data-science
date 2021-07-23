@@ -1,5 +1,5 @@
 ## What is this?
-The goal of this repository is to make a fairly simple file structure that will allow the user to streamline project creation and create standards across groups. Noteably, this is an extremely minimal version of what can be done both with cookiecutter and the cookiecutter-data-science fork. 
+The goal of this repository is to make a fairly simple file structure that will allow the user to streamline project creation and create standards across groups. Noteably, this is an **extremely** minimal version of what can be done both with cookiecutter and the cookiecutter-data-science fork. 
 
 
 ## Install
