@@ -9,7 +9,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter -c v1 https://github.com/anpatton/cookiecutter-data-science
+    cookiecutter https://github.com/anpatton/cookiecutter-data-science
 
 ### The resulting directory structure
 ------------
