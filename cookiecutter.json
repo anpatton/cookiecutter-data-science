@@ -2,7 +2,7 @@
     "project_name": "project_name",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Your name",
-    "plm_email": "PLM email address",
+    "author_email": "PLM email address",
     "plm_group": "Data Science",
     "description": "A short description of the project."
 }
