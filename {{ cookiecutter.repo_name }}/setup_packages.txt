@@ -1,0 +1,7 @@
+psycopg2
+numpy
+pandas
+xlsxwriter
+openpyxl
+pip
+git
